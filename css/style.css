@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+    color:#F6E7D8;
+    background-color:#1b1b1d;
+    
+
+}  
+
+div.BackgroundImage {
+    display:flex;
+    z-index:0;
+    align-items:center;
+    width:100%;
+    object-fit:cover;
+    margin-top:-200px;
+    justify-content:center;
+}
+
+img {
+    width:1280px;
+    opacity:84%;
+}
+
+div#Pages {
+    padding-left:4%;
+    padding-right:4%;
+}
+
+div.TitleContainer h1 {
+    font-family:"Major Mono Display", sans-serif;
+    display:flex;
+    font-size:50px;
+    padding-bottom:25px;
+
+}
+
+h2 {
+    display:flex;
+    font-weight:400;
+    font-size:19.5px;
+
+
+}
+
+div.TitleContainer {
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    z-index:3;
+    position:relative;
+    margin-top:-400px;
+    background-color:transparent;
+    text-shadow:3px 4px 10px #1b1b1a5e;
+
+
+}
+
+div.TitleContainer h1 {
+    background-color: transparent;
+}
+
+
+div.TitleContainer h2 {
+    background-color: transparent;
+}
+
+nav ul li a {
+    position:relative;
+    text-decoration:none;
+    display:flex;
+    color:#867F77;
+    padding-bottom:20px;
+    background-color:transparent;
+
+}
+
+nav ul li a:hover {
+    color:#F6E7D8;
+   
+}
+
+
+.NavBar  {
+    display:flex;
+    justify-content:right;
+    padding-right:40px;
+    padding-top:20px;
+    z-index:3;
+    background-color:transparent;
+
+
+
+}
+
+.NavBar ul li {
+    list-style: none;
+}
+
+nav  {
+    display:flex;
+    flex-direction:column;
+
+ 
+}
+
+
+div.ScrollDownContainer {
+    position:fixed;
+    width:100vw;
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    padding-top:125px;
+
+
+}
+
+div.ScrollDownTextContainer {
+    padding-bottom:5px;
+    background-color:transparent;
+    display:flex;
+    justify-content:center;
+}
+
+i.fa-solid.fa-angle-down {
+    background-color:transparent;
+}
+
+div.DownArrowContainer {
+    background-color:transparent;
+    display:flex;
+    
+}
+
+section {
+    padding-bottom:350px;
+}
+
+
+h2.PageTitle {
+    font-size:25px;
+
+}
+
+
+
+div.ProjectTitlesContainer {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position:relative;
+    z-index:5;
+    margin-top:-197px;
+    background-color:transparent;
+   
+}
+
+div.BookiTitle {
+    margin-left: -23px;
+    margin-top: -300px;
+    background-color: transparent;
+
+}
+
+
+
+div.OhmyfoodTitle {
+    margin-left: -23px;
+    margin-top: -363px;
+    background-color: transparent;
+}
+
+div.TBCTitle {
+    position:relative;
+    left: -267px;
+    margin-top: -84px;
+    background-color: transparent;
+}
+
+div.ProjectTitleContainer  {
+    display:flex;
+    background-color:transparent;
+    height: 123px;
+    width: 225px;
+    justify-content:center;
+    align-items:center;    
+    font-size:18px;
+}
+
+
+
+div.ProjectTitleContainer a {    
+    text-decoration:none;
+    background-color:transparent;  
+    color:#4D3D2E;
+}
+
+div.ProjectTitleContainer a:hover{     
+    color:#F6E7D8;
+}
+
+
+
+div.Circle:hover {
+    background-color:#1a1a1b;
+}
+
+div#ABOUT {
+    height:700px;
+}
+
+#WORK {
+    height:100vh;
+
+}
+
+#WORK a {
+    font-weight:620;
+}
+
+div.WoodAbstract1Container img {
+    width:700px;
+    background-color:transparent;
+    filter:saturate(130%)
+
+}
+
+
+div.WoodAbstract1Container {
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    position:relative;
+    z-index:4;
+    object-fit: contain;
+    background-color: transparent;
+    margin-left: -248px;
+    margin-top: 94px;
+}
+
+div.WoodAbstract2Container img {
+    width:630px;
+    background-color:transparent;
+    filter:saturate(130%)
+
+}
+
+
+div.WoodAbstract2Container {
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    position:relative;
+    z-index:4;
+    object-fit: contain;
+    background-color: transparent;
+    margin-left: 226px;
+    margin-top: -550px;
+}
+
+
+div.WoodAbstract3Container img {
+    width:660px;
+    background-color:transparent;
+    filter:saturate(130%);
+
+
+}
+
+
+div.WoodAbstract3Container {
+    background-color:transparent;
+    display:flex;
+    align-items:center;
+    position:relative;
+    z-index:4;
+    object-fit: contain;
+    background-color: transparent;
+    margin-left: 435px;
+    margin-top: -3px;
+    transform: rotate(35deg);
+
+}
+
+
+#ABOUT {
+    padding-top:80px;
+    height:100vh;
+
+}
+
+#ABOUT h2 {
+    padding-bottom:30px;
+}
+
+div.AboutTextContainer {
+    width:500px;
+}
+
+#CONTACT {
+   height:500px;
+}
