@@ -316,3 +316,28 @@ div.ContactTextContainer {
     width:500px;
     
 }
+
+div#ProjectPagePadding {
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:30px;
+
+}
+
+div.OhmyfoodTitleContainer {
+    width:300px;
+    padding-bottom:30px;
+}
+
+p {
+    width:500px;
+    padding-bottom:30px;
+}
+
+button {
+    border-width: 0px;
+}
+
+button a {
+    text-decoration:none;
+}
