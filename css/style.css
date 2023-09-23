@@ -332,6 +332,7 @@ div.OhmyfoodTitleContainer {
 p {
     width:500px;
     padding-bottom:30px;
+    text-align:justify;
 }
 
 button {
