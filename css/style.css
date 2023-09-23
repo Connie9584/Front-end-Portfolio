@@ -304,5 +304,15 @@ div.AboutTextContainer {
 }
 
 #CONTACT {
-   height:500px;
+   height:200px;
+   
+}
+
+#CONTACT h2 {
+    padding-bottom:30px;
+}
+
+div.ContactTextContainer {
+    width:500px;
+    
 }
