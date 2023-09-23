@@ -317,10 +317,14 @@ div.ContactTextContainer {
     
 }
 
-div#ProjectPagePadding {
+div#OhmyfoodPage {
     padding-left:4%;
     padding-right:4%;
     padding-top:30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+
 
 }
 
@@ -341,4 +345,19 @@ button {
 
 button a {
     text-decoration:none;
+}
+
+div.OhmyfoodMobileViewHomeContainer img {
+    width:200px;
+}
+
+div.OhmyfoodMobileViewHomeContainer {
+    width:200px;
+    display:flex;
+
+}
+
+div.OhmyfoodDescription {
+    width:40%;
+
 }
