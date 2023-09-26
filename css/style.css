@@ -362,12 +362,16 @@ div.OhmyfoodDescription {
 
 }
 
+div.OhmyfoodAllText {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+}
+
 div.OhmyfoodMobileViewMenuContainer img {
     width:200px;
     display:flex;
 }
 
-div.OhmyfoodScreenshots {
-    display:flex;
-        flex-direction:row;
-}
