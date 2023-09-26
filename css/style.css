@@ -320,7 +320,6 @@ div.ContactTextContainer {
 div#OhmyfoodPage {
     padding-left:4%;
     padding-right:4%;
-    padding-top:30px;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -348,17 +347,27 @@ button a {
 }
 
 div.OhmyfoodMobileViewHomeContainer img {
-    width:200px;
+    object-position:0% 0%;
+    width:250px;
+    height:200vh;
+    overflow:visible;
+
+ 
+
 }
 
 div.OhmyfoodMobileViewHomeContainer {
-    width:200px;
-    display:flex;
-
+    display:block;
+    overflow-y: auto;
+    width: 200px; 
+    max-height: 100vh;
+    
 }
+
 
 div.OhmyfoodDescription {
     width:min-content;
+    margin-right:300px;
 
 }
 
@@ -370,8 +379,4 @@ div.OhmyfoodAllText {
     height:100vh;
 }
 
-div.OhmyfoodMobileViewMenuContainer img {
-    width:200px;
-    display:flex;
-}
 
