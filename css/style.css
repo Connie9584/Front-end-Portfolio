@@ -449,3 +449,17 @@ div.OhmyfoodMobileViewMenuContainer2 img {
     height: 150vh;
     opacity:30%;
 }
+
+div.BackArrowContainer {
+    padding-top:30px;
+}
+
+i.fa-solid.fa-arrow-left {
+    color:#867F77;
+    font-size:18px;
+}
+
+i.fa-solid.fa-arrow-left:hover {
+    color:#F6E7D8;
+}
+
