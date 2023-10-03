@@ -480,7 +480,7 @@ i.fa-solid.fa-arrow-left:hover {
 
 
 div.BookiDescription {
-    z-index: 1;
+    z-index: 2;
     background-color: transparent;
     font-size:13px;
 
@@ -526,6 +526,10 @@ div.BookiTitleContainer {
     padding-bottom:20px;
     display:flex;
     justify-content: center;
+    position: relative;
+    top: 105px;
+    left: -27px;
+    z-index: 2;
 }
 
 h2.PageTitle{
@@ -535,19 +539,38 @@ h2.PageTitle{
 
 div.BookiDescription p {
     text-align:center;
+    top: -103px;
+    left: 38px;
+    font-size: 11.3px;
+    width: 329px;
 }
+
 
 div.BookiCollageBorderContainer {
     display: flex;
     z-index: 0;
     position: relative;
-    left: -485px;
+    left: -526px;
     align-items: center;
-    top: 14px;
+    top: -12px;
 }
 
 div.BookiCollageBorderContainer img {
     aspect-ratio: auto;
-    width: 58vw;
+    width: 65vw;
 
+}
+
+div.BookiTextPaperBackground {
+    aspect-ratio: auto;
+    z-index: 1;
+    position: relative;
+    top: 25px;
+    left: -29px;
+
+}
+
+div.BookiTextPaperBackground img{
+    aspect-ratio: auto;
+    width: 480px;
 }
