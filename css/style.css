@@ -176,11 +176,13 @@ div.OhmyfoodTitle {
     background-color: transparent;
 }
 
-div.TBCTitle {
+div.ComingSoonTitle {
     position:relative;
     left: -267px;
     margin-top: -84px;
     background-color: transparent;
+
+
 }
 
 div.ProjectTitleContainer  {
@@ -191,6 +193,7 @@ div.ProjectTitleContainer  {
     justify-content:center;
     align-items:center;    
     font-size:18px;
+    color:#4D3D2E;
 }
 
 
@@ -205,7 +208,13 @@ div.ProjectTitleContainer a:hover{
     color:#F6E7D8;
 }
 
+div.ComingSoonContainer {
+    color:#4D3D2E;
+    background-color:transparent;
+    opacity:35%;
+    font-weight:500;
 
+}
 
 div.Circle:hover {
     background-color:#1a1a1b;
