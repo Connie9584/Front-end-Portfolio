@@ -551,7 +551,7 @@ div.BookiCollageBorderContainer {
     justify-content:start;
     z-index: 0;
     position: relative;
-    left: -526px;
+    left: -748px;
     align-items: center;
     top: -12px;
     background:transparent;
@@ -566,16 +566,17 @@ div.BookiCollageBorderContainer img {
 
 div.BookiCollageBorderRightCornerContainer {
     display: flex;
-    left: -174px;
+    left: -607px;
     position: relative;
     background: transparent;
     align-items: flex-end;
+    width: 500px;
 }
 
 div.BookiCollageBorderRightCornerContainer img {
     aspect-ratio: auto;
-    width: fit-content;
-    object-fit: none;
+    width: 311px;
+    object-fit: cover;
 }
 
 div.BookiBorder {
@@ -597,4 +598,17 @@ div.BookiTextPaperBackground {
 div.BookiTextPaperBackground img{
     aspect-ratio: auto;
     width: 480px;
+}
+
+div.BookiBackgroundPostcardContainer img {
+    position: relative;
+    background: transparent;
+    width: 250px;
+    z-index: 4;
+}
+
+div.BookiBackgroundPostcardContainer {
+    position: relative;
+    left: -200px;
+    top: -186px;
 }
