@@ -144,7 +144,7 @@ section {
 
 
 h2.PageTitle {
-    font-size:26px;
+    font-size:19px;
 
 }
 
@@ -528,7 +528,7 @@ div.BookiTitleContainer {
     justify-content: center;
     position: relative;
     top: 105px;
-    left: -27px;
+    left: 34px;
     z-index: 4;
 }
 
@@ -539,8 +539,8 @@ h2.PageTitle{
 
 div.BookiDescription p {
     text-align:center;
-    top: -103px;
-    left: 38px;
+    top: -77px;
+    left: 81px;
     font-size: 11.3px;
     width: 329px;
 }
@@ -551,7 +551,7 @@ div.BookiCollageBorderContainer {
     justify-content:start;
     z-index: 0;
     position: relative;
-    left: -748px;
+    left: -684px;
     align-items: center;
     top: -12px;
     background:transparent;
@@ -591,13 +591,13 @@ div.BookiTextPaperBackground {
     z-index: 1;
     position: relative;
     top: 25px;
-    left: -29px;
+    left: 36px;
 
 }
 
 div.BookiTextPaperBackground img{
     aspect-ratio: auto;
-    width: 480px;
+    width: 414px;
 }
 
 div.BookiBackgroundPostcardContainer img {
@@ -610,5 +610,5 @@ div.BookiBackgroundPostcardContainer img {
 div.BookiBackgroundPostcardContainer {
     position: relative;
     left: -200px;
-    top: -186px;
+    top: -201px;
 }
