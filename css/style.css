@@ -144,7 +144,7 @@ section {
 
 
 h2.PageTitle {
-    font-size:19px;
+    font-size:24px;
 
 }
 
@@ -535,8 +535,8 @@ div.BookiTitleContainer {
     display:flex;
     justify-content: center;
     position: relative;
-    top: 105px;
-    left: 34px;
+    top: 111px;
+    left: 41px;
     z-index: 4;
 }
 
@@ -547,34 +547,34 @@ h2.PageTitle{
 
 div.BookiDescription p {
     text-align:center;
-    top: -77px;
-    left: 81px;
+    top: -102px;
+    left: 108px;
     font-size: 13px;
-    width: 329px;
+    width: 369px;
 }
 
 
 div.BookiCollageBorderContainer {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     z-index: 0;
     position: relative;
-    left: -684px;
+    left: -816px;
     align-items: center;
-    top: 4px;
-    background:transparent;
+    top: 13px;
+    background: transparent;
 }
 
 
 div.BookiCollageBorderContainer img {
     aspect-ratio: auto;
-    width: 65vw;
+    width: 59vw;
 
 }
 
 div.BookiCollageBorderRightCornerContainer {
     display: flex;
-    left: -607px;
+    left: -491px;
     position: relative;
     background: transparent;
     align-items: flex-end;
@@ -583,8 +583,8 @@ div.BookiCollageBorderRightCornerContainer {
 
 div.BookiCollageBorderRightCornerContainer img {
     aspect-ratio: auto;
-    width: 311px;
-    object-fit: cover;
+    width: 243px;
+    object-fit: none;
 }
 
 div.BookiBorder {
@@ -605,7 +605,7 @@ div.BookiTextPaperBackground {
 
 div.BookiTextPaperBackground img{
     aspect-ratio: auto;
-    width: 414px;
+    width: 502px;
 }
 
 div.BookiBackgroundPostcardContainer img {
@@ -617,6 +617,23 @@ div.BookiBackgroundPostcardContainer img {
 
 div.BookiBackgroundPostcardContainer {
     position: relative;
-    left: -200px;
+    left: -285px;
     top: -201px;
+}
+
+div.BookiPlaneContainer img {
+    width: 94px;
+    z-index: 5;
+    position: relative;
+    background: transparent;
+}
+
+div.BookiPlaneContainer {
+    left: 321px;
+    position: relative;
+    top: 124px;
+}
+
+div.BookiPlaneContainer img {
+    width:80px;
 }
