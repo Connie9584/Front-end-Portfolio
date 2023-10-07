@@ -482,7 +482,7 @@ i.fa-solid.fa-arrow-left:hover {
 
 
 div.BookiDescription {
-    z-index: 2;
+    z-index: 4;
     background-color: transparent;
     font-size:13px;
 
@@ -505,14 +505,12 @@ div.BookiAllText {
     left: 367px;
     position: relative;
     font-size: 14px;
-    z-index: 1;
+    z-index: 4;
     background-color: transparent;
 
 }
 
 div#BookiPage {
-    padding-left:4%;
-    padding-right:4%;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -531,7 +529,7 @@ div.BookiTitleContainer {
     position: relative;
     top: 105px;
     left: -27px;
-    z-index: 2;
+    z-index: 4;
 }
 
 h2.PageTitle{
@@ -550,18 +548,42 @@ div.BookiDescription p {
 
 div.BookiCollageBorderContainer {
     display: flex;
+    justify-content:start;
     z-index: 0;
     position: relative;
     left: -526px;
     align-items: center;
     top: -12px;
+    background:transparent;
 }
+
 
 div.BookiCollageBorderContainer img {
     aspect-ratio: auto;
     width: 65vw;
 
 }
+
+div.BookiCollageBorderRightCornerContainer {
+    display: flex;
+    left: -174px;
+    position: relative;
+    background: transparent;
+    align-items: flex-end;
+}
+
+div.BookiCollageBorderRightCornerContainer img {
+    aspect-ratio: auto;
+    width: fit-content;
+    object-fit: none;
+}
+
+div.BookiBorder {
+    display: flex;
+    z-index:3;
+    background:transparent;
+}
+
 
 div.BookiTextPaperBackground {
     aspect-ratio: auto;
