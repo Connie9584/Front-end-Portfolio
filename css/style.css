@@ -369,11 +369,19 @@ div.VisitSiteButtonContainer {
     justify-content: right;
     padding-top:30px;
     background-color: transparent;
+    top: -117px;
+    position: relative;
+    z-index: 5;
+    left: -20px;
 }
 div.OhmyfoodMobileViewHomeContainer img {
     width: 189px;
     height: 150vh;
     opacity:30%;
+}
+
+i.fa-solid.fa-link {
+    background: transparent;
 }
 
 div.OhmyfoodMobileViewHomeContainer {
@@ -541,7 +549,7 @@ div.BookiDescription p {
     text-align:center;
     top: -77px;
     left: 81px;
-    font-size: 11.3px;
+    font-size: 13px;
     width: 329px;
 }
 
