@@ -468,6 +468,7 @@ div.OhmyfoodMobileViewMenuContainer2 img {
 div.BackArrowContainer {
     padding-top:30px;
     z-index:4;
+    background-color:transparent;
 }
 
 i.fa-solid.fa-arrow-left {
