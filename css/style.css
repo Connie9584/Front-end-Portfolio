@@ -408,47 +408,12 @@ div.OhmyfoodAllText {
     align-items:center;
     width:100vw;
     height:100vh;
-    left: 367px;
     position: relative;
     font-size: 14px;
     z-index: 1;
     background-color: transparent;
 }
 
-div.OhmyfoodMobileViewHomeContainer2 {
-    display: flex;
-    width: 394px;
-    max-height: 100vh;
-    position: relative;
-    left: -1706px;
-    top: 27px;
-    transform:rotate(-45deg);
-
-}
-
-div.OhmyfoodMobileViewHomeContainer2 img {
-    width: 189px;
-    height: 150vh;
-    opacity:30%;
-}
-
-
-div.OhmyfoodMobileViewMenuContainer2 {
-    display: flex;
-    width: 394px;
-    max-height: 100vh;
-    top: 64px;
-    position: relative;
-    left: -1143px;
-    transform:rotate(-45deg);
-
-}
-
-div.OhmyfoodMobileViewMenuContainer2 img {
-    width: 189px;
-    height: 150vh;
-    opacity:30%;
-}
 
 div.BackArrowContainer {
     padding-top:30px;
