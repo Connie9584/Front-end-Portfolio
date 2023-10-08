@@ -384,10 +384,8 @@ div.VisitSiteButtonContainer {
     justify-content: right;
     padding-top:30px;
     background-color: transparent;
-    top: -117px;
     position: relative;
     z-index: 5;
-    left: -20px;
 }
 
 
@@ -396,7 +394,7 @@ i.fa-solid.fa-link {
 }
 
 div.OhmyfoodDescription {
-    margin-right:150px;
+    margin-right:0px;
 
 }
 
