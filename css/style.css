@@ -347,6 +347,7 @@ div#OhmyfoodPage {
 div.OhmyfoodPaperImageContainer {
     display: flex;
     background: transparent;
+    z-index:1;
 }
 
 div.OhmyfoodPaperImageContainer img {
