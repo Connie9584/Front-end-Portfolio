@@ -341,6 +341,15 @@ div#OhmyfoodPage {
 
 }
 
+div.OhmyfoodPaperImageContainer {
+    display: flex;
+}
+
+div.OhmyfoodPaperImageContainer img {
+    object-fit: none;
+    width: 300px;
+}
+
 div.OhmyfoodTitleContainer {
     width:300px;
     padding-bottom:30px;
