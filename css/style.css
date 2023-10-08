@@ -348,6 +348,7 @@ div.OhmyfoodPaperImageContainer {
 
 div.OhmyfoodPaperImageContainer img {
     object-fit: none;
+    aspect-ratio:auto;
     width: 600px;
 }
 
