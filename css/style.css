@@ -405,8 +405,8 @@ div#BookiPage .VisitSiteButtonContainer {
     background-color: transparent;
     position: relative;
     z-index: 5;
-    top: -176px;
-    left: -539px;
+    top: -166px;
+    left: -629px;
 }
 
 div#OhmyfoodPage .VisitSiteButtonContainer {
@@ -533,7 +533,7 @@ div.BookiTitleContainer {
     justify-content: center;
     position: relative;
     top: 157px;
-    left: -456px;
+    left: -663px;
     z-index: 4;
 }
 
@@ -543,9 +543,9 @@ h2.PageTitle{
 }
 
 div.BookiDescription p {
-    text-align:center;
+    text-align: justify;
     top: -134px;
-    left: -393px;
+    left: -453px;
     font-size: 13px;
     width: 369px;
     z-index: 1;
@@ -607,6 +607,7 @@ div.BookiTextPaperBackground {
     top: 25px;
     left: -466px;
     background: transparent;
+    visibility:hidden;
 
 }
 
@@ -631,14 +632,14 @@ div.BookiBackgroundPostcardContainer {
 }
 
 div.BookiPlaneContainer img {
-    width: 80px;
+    width: 68px;
     z-index: 5;
     position: relative;
     background: transparent;
 }
 
 div.BookiPlaneContainer {
-    left: -185px;
+    left: -198px;
     position: relative;
     top: 131px;
     background: transparent;
