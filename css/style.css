@@ -405,8 +405,8 @@ div#BookiPage .VisitSiteButtonContainer {
     background-color: transparent;
     position: relative;
     z-index: 5;
-    top: -151px;
-    left: -33px;
+    top: -176px;
+    left: -539px;
 }
 
 div#OhmyfoodPage .VisitSiteButtonContainer {
@@ -441,10 +441,6 @@ div.OhmyfoodDescription {
 
 }
 
-div.OhmyfoodDescription p {
-    width: 264px;
-
-}
 
 div.OhmyfoodAllText {
     display:flex;
@@ -458,12 +454,12 @@ div.OhmyfoodAllText {
 }
 
 
-div.BackArrowContainer {
+div#BookiPage .BackArrowContainer {
     padding-top:30px;
     z-index:4;
     background-color:transparent;
     position:relative;
-    left:18px;
+    left:-457px;
 }
 
 div#OhmyfoodPage .BackArrowContainer a {
@@ -488,13 +484,6 @@ div.BookiDescription {
 
 }
 
-div.BookiDescription p {
-    width: 368px;
-    z-index: 1;
-    background-color: transparent;
-    position: relative;
-
-}
 
 div.BookiAllText {
     display:flex;
@@ -516,10 +505,26 @@ div#BookiPage {
     justify-content: space-between;
     overflow:hidden;
     height:100vh;
+}
 
-   
+div.BookiGiantStatueContainer {
+    rotate: 10deg;
+    z-index: 3;
+    left: 671px;
+    top: -97px;
+    position: relative;
+    width: 500px;
+    
 
 }
+
+div.BookiGiantStatueContainer img {
+    width: 973px;
+    object-fit: cover;
+    opacity: 50%;
+    
+}
+
 
 div.BookiTitleContainer {
     background: transparent;
@@ -527,8 +532,8 @@ div.BookiTitleContainer {
     display:flex;
     justify-content: center;
     position: relative;
-    top: 107px;
-    left: 41px;
+    top: 157px;
+    left: -456px;
     z-index: 4;
 }
 
@@ -539,44 +544,53 @@ h2.PageTitle{
 
 div.BookiDescription p {
     text-align:center;
-    top: -115px;
-    left: 108px;
+    top: -134px;
+    left: -393px;
     font-size: 13px;
     width: 369px;
+    z-index: 1;
+    background-color: transparent;
+    position: relative;
 }
 
 
 div.BookiCollageBorderContainer {
     display: flex;
     justify-content: start;
-    z-index: 0;
+    z-index: 1;
     position: relative;
-    left: -849px;
+    left: -1413px;
     align-items: center;
-    top: 13px;
+    top: 43px;
     background: transparent;
 }
 
 
 div.BookiCollageBorderContainer img {
     aspect-ratio: auto;
-    width: 59vw;
+    width: 64vw;
+    background: transparent;
+    opacity:100%;
+    
 
 }
 
 div.BookiCollageBorderRightCornerContainer {
     display: flex;
-    left: -564px;
+    left: -1079px;
     position: relative;
     background: transparent;
     align-items: flex-end;
     width: 500px;
+    top: 97px;
 }
 
 div.BookiCollageBorderRightCornerContainer img {
     aspect-ratio: auto;
-    width: 243px;
-    object-fit: none;
+    width: 324px;
+    object-fit: cover;
+    background: transparent;
+    opacity: 100%;
 }
 
 div.BookiBorder {
@@ -591,13 +605,15 @@ div.BookiTextPaperBackground {
     z-index: 1;
     position: relative;
     top: 25px;
-    left: 36px;
+    left: -466px;
+    background: transparent;
 
 }
 
 div.BookiTextPaperBackground img{
     aspect-ratio: auto;
     width: 502px;
+    background: transparent;
 }
 
 div.BookiBackgroundPostcardContainer img {
@@ -609,23 +625,22 @@ div.BookiBackgroundPostcardContainer img {
 
 div.BookiBackgroundPostcardContainer {
     position: relative;
-    left: -387px;
+    left: -866px;
     top: -201px;
+  
 }
 
 div.BookiPlaneContainer img {
-    width: 94px;
+    width: 80px;
     z-index: 5;
     position: relative;
     background: transparent;
 }
 
 div.BookiPlaneContainer {
-    left: 321px;
+    left: -185px;
     position: relative;
-    top: 117px;
-}
-
-div.BookiPlaneContainer img {
-    width:80px;
+    top: 131px;
+    background: transparent;
+    opacity: 100%;
 }
